@@ -1,0 +1,147 @@
+body{
+    font-family: 'Londrina Solid', cursive;
+    margin: 0;
+
+}
+
+
+
+
+header{
+   height: 200px;
+   width: 100%;
+
+    background-color:rgba(25, 28, 29, 0.8)/*rgba4原色と透明度の調整ができる*/
+}
+.logo{
+    width: 200px;
+    margin-top: 3px;
+    margin-left: 70px;
+    
+}
+.header-left{
+    float: left;
+}
+.header-right{
+    float: right;
+    background-color: rgba(218, 23, 23, 0.3);
+    margin-right: 60px;
+    transition: all 0.5s;/*→0.5秒かけて効果をもたらす*/
+    
+}
+.header-right a{
+    color: rgb(255, 255, 255);
+    line-height: 200px;/*行間を調整　高さの真ん中へ配置*/
+    padding: 0 25px;
+    display:block/*インライン要素からブロックして枠すべてを対象にする（ログインボタン）*/
+    
+}
+.header-right:hover{
+  opacity: 0.8;
+  background-color: rgb(47, 145, 1);
+}
+.top-wrapper{
+    background-image: url(333.jpg);
+    padding: 120px 0;
+    background-size: cover;
+    color: ghostwhite;
+    text-align: center;
+}
+.container{
+    width: 1100px;
+    padding: 0 80px;
+    margin: 0 auto;
+}
+.container h1{
+    font-size: 70px;
+    letter-spacing: 10px;
+    padding-top: 30px;
+}
+.container p{
+    color: rgb(253, 253, 253);
+    font-size: 20px;
+}
+.btn{
+    color: ivory;
+    opacity: 0.8;
+    padding: 12px 50px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 30px;
+
+}
+.btn:hover{
+    opacity: 0.5;
+}
+.signup{
+    background-color: lawngreen;
+}
+.btn-wrapper p{
+    font-size: 40px;
+    margin-top: 10px;
+}
+.facebook{
+    background-color: lightgreen;
+    margin: 40px;
+    letter-spacing: 5px;
+}
+.twitter{
+    background-color: lightgreen;
+    margin: 40px;
+    letter-spacing: 5px;
+}
+.btn-wrapper{
+    margin: 80px 10px;
+    }
+.fa{
+    margin-right: 15px;
+    color: rgb(68, 0, 255);
+}
+a{
+    text-decoration: none;
+}
+.lesson-wrapper{
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: rgb(223, 134, 1);
+    text-align: center;
+}
+.heading{
+    padding-top: 60px;
+    color: blanchedalmond;
+}
+.heading h2{
+    font-weight: normal;/*文字の太さを変更*/
+}
+.lesson{
+    background-color: tomato;
+    float: left;
+    width: 100%;
+}
+.lesson img{
+    width: 100px;
+    height: auto;
+    
+}
+.lesson-icon{
+    background-color: teal;
+    position: relative;/*オブジェクトの上に重ねたり、指定した場所を基準にする*/
+    
+
+}
+.lesson-icon p{
+    background-color: tomato;
+    position: absolute;/*実際に変更したい場所を、ポジションで指定した上下幅をきめる*/
+    top: 25px;
+    width: 100%;
+    color: white;
+
+}
+.txt-contents{
+    background-color: yellow;
+    width: 50%;
+    display: inline-block;/*上下横に幅をもたせることが出来る。*/
+    margin-top: 20px;
+    color: violet;
+    font-size: 12px;
+}
